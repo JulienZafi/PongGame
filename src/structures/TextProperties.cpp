@@ -1,4 +1,5 @@
-#include "TextProperties.hpp"
+
+#include "structures/TextProperties.hpp"
 
 TextProperties::TextProperties(sf::Font const &font, sf::String const &string, uint const &caracSize, sf::Color const &color, sf::Uint32 const &style) noexcept
 {

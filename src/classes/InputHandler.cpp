@@ -1,4 +1,5 @@
-#include "InputHandler.hpp"
+
+#include "classes/InputHandler.hpp"
 
 Input::Input()
 {

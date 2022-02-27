@@ -1,4 +1,5 @@
-#include "Ball.hpp"
+
+#include "classes/Ball.hpp"
 
 Ball::Ball()
 {

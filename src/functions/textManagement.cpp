@@ -1,8 +1,8 @@
-#include "functions.hpp"
+#include "functions/functions.hpp"
 
 void loadFont(sf::Font& font) noexcept
 {
-	std::string path{ "res/04B_08__.ttf" };
+	std::string path{ "resources/04B_08__.ttf" };
 	if (!font.loadFromFile(path))
 	{
 		std::string message{ "Unable to load text font from " + path };

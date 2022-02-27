@@ -1,4 +1,4 @@
-#include "../classes/Game.hpp"
+#include "classes/Game.hpp"
 
 #include <iostream>
 void Game::run(sf::RenderWindow *theWindow, UserChoice choice)

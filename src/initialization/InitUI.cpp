@@ -1,6 +1,5 @@
-#include "InitUI.hpp"
 
-#include "../classes/Game.hpp"
+#include "classes/Game.hpp"
 
 #include <fstream>
 #include <sstream>
@@ -89,7 +88,7 @@ void InitUI::initGameScreen()
 
 std::string InitUI::getGameTitle() noexcept
 {
-	std::string path = "res/gameTitle.res";
+	std::string path = "resources/gameTitle.res";
 	std::ifstream inputFile{ path };
 
 	std::string gameTitle{};

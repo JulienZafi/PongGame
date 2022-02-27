@@ -1,4 +1,4 @@
-#include "functions.hpp"
+#include "functions/functions.hpp"
 
 unsigned int randNumber(unsigned int num)
 {
